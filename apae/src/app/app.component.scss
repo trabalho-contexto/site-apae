@@ -67,3 +67,27 @@ section {
         width: 25%;
     }
 }
+
+.cardTranstorno {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 1rem 1rem 1rem 0;
+    width: 250px;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+  }
+  
+  .cardTranstorno:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .containerTranstorno {
+    padding: 2px 16px;
+  }
+  .containerTranstornoTitulo {
+    margin-top: 1rem;
+  }
+  .containerTranstornoTexto {
+    margin: 1rem 0;
+  }
+  
