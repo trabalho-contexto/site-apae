@@ -7,26 +7,16 @@
     <title>Apae</title>
   </head>
   <body>
-    <nav class="navbar">
-      <ul class="nav">
-        <a class="nav-link" (click)="scrollTo(sobre)">
-          <li class="ni">Sobre</li>
-        </a>
-        <a class="nav-link" (click)="scrollTo(historia)">
-          <li class="ni">História</li>
-        </a>
-        <a class="nav-link" (click)="scrollTo(transtornos)">
-          <li class="ni">Transtornos</li>
-        </a>
-        <a class="nav-link" (click)="scrollTo(doacoes)">
-          <li class="ni">Doações</li>
-        </a>
-        <a class="nav-link" (click)="scrollTo(contato)">
-          <li class="ni">Contato</li>
-        </a>
-      </ul>
-    </nav>
-
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" (click)="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
     <div class="wrapper">
       <section id="section-apresentacao">
         <img src="assets/apae.png" />
