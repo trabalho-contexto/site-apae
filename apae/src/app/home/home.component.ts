@@ -12,4 +12,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  scrollTo ( element: any ) {
+    element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
+
 }
