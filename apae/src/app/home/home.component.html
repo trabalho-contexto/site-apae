@@ -8,11 +8,22 @@
   </head>
   <body>
     <div class="topnav" id="myTopnav">
-      <a href="#home" class="active">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-      <a href="javascript:void(0);" class="icon" (click)="myFunction()">
+      <a href="#sobre" class="active" (click)="scrollTo(sobre)">
+        <li class="ni">Sobre</li>
+      </a>
+      <a href="#historia" (click)="scrollTo(historia)">
+        <li class="ni">História</li>
+      </a>
+      <a href="#transtornos" (click)="scrollTo(transtornos)">
+        <li class="ni">Transtornos</li>
+      </a>
+      <a href="#doacoes" (click)="scrollTo(doacoes)">
+        <li class="ni">Doações</li>
+      </a>
+      <a href="#contato" (click)="scrollTo(contato)">
+        <li class="ni">Contato</li>
+      </a>
+      <a class="icon" (click)="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
     </div>

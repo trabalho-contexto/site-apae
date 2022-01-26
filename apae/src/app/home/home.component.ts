@@ -17,7 +17,6 @@ export class HomeComponent implements OnInit {
   }
 
   myFunction() {
-    console.log('funcao');
     let topnav: any = document.getElementById("myTopnav");
     
     if (topnav.className == "topnav") {
