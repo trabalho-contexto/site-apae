@@ -1,0 +1,31 @@
+body {
+    margin: 1rem;
+    h1 {
+        margin-bottom: 2%;
+    }
+    .wrapper {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-auto-rows: auto;
+        align-items: flex-start; 
+        height: auto;
+        div {
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 6px 28px 0 rgba(24, 52, 117, 0.2);
+            h3, p, img {
+                margin-bottom: 5%;
+            }
+            p {
+                text-align: justify;
+            }
+            .footer {
+                font-size: smaller;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

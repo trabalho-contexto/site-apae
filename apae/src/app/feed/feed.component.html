@@ -7,6 +7,19 @@
     <title>Feed</title>
 </head>
 <body>
-    Teste Feed
+    <h1>Feed de postagens</h1>
+    <div class="wrapper">
+        <ng-container *ngIf="!loadingPosts">
+            <div *ngFor="let post of posts">
+                <h3>{{post.titulo}} </h3>
+                <p>{{post.descricao}}</p>
+                <img [src]="post.imgLink">
+                <p class='footer'>{{post.data}}</p>
+            </div>
+        </ng-container>
+        <ng-container *ngIf="loadingPosts">
+            Carregando...
+        </ng-container>
+    </div>
 </body>
 </html>
