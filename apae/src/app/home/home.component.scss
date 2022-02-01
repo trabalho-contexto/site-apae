@@ -92,6 +92,15 @@ section {
 .contato {
   padding-top: 1rem;
 }
+.subsection{
+  margin: 0.5rem
+}
+.informacoes{
+  padding-top: 1rem;
+  padding-left: 3rem
+}
+
+
 
 .cardTranstorno {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -119,7 +128,11 @@ section {
 }
 
 li {
-  list-style-type: none;
+//  list-style-type: none;
+}
+p {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .topnav {
