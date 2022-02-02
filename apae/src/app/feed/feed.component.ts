@@ -1,4 +1,6 @@
+import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import Post from 'src/modelo/post.modelo';
 import { FeedService } from './feed.service';
 
@@ -13,7 +15,8 @@ export class FeedComponent implements OnInit {
   public loadingPosts: boolean = false
 
   constructor(
-    private feedService: FeedService
+    private feedService: FeedService,
+    private location: Location
   ) { 
     this.loadPosts()
   }
@@ -33,6 +36,10 @@ export class FeedComponent implements OnInit {
 
   ngOnInit(): void {
     
+  }
+
+  voltar () {
+    this.location.back()
   }
 
 }
