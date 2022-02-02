@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DialogService } from '../dialog/dialog.service';
 
 @Component({
   selector: 'app-home',
@@ -7,13 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private dialogService: DialogService
+  ) { }
 
   ngOnInit(): void {
   }
 
   scrollTo ( element: any ) {
     element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
+
+  abrirDialog () {
+    this.dialogService.open("TESTE", () => { console.log('fechado') })
   }
 
   myFunction() {
