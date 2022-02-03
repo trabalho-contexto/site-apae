@@ -1,6 +1,5 @@
 import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import Post from 'src/modelo/post.modelo';
 import { FeedService } from './feed.service';
 

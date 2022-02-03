@@ -4,17 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { MatDialogModule } from '@angular/material/dialog';
 import { AppComponent } from './app.component';
-import { FeedComponent } from './feed/feed.component';
-import { HomeComponent } from './home/home.component';
+import { FeedComponent } from './componentes/feed/feed.component';
+import { HomeComponent } from './componentes/home/home.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { DialogComponent } from './dialog/dialog.component';
+import { DialogComponent } from './componentes/dialog/dialog.component';
+import { RedutorPipe } from './pipes/redutor.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     FeedComponent,
     HomeComponent,
-    DialogComponent
+    DialogComponent,
+    RedutorPipe
   ],
   imports: [
     BrowserModule,

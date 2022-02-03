@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Router } from '@angular/router';
+import { TranstornoService } from 'src/app/transtorno.service';
+import { Transtorno } from 'src/modelo/transtorno.modelo';
 import { DialogService } from '../dialog/dialog.service';
 
 @Component({
@@ -9,12 +11,20 @@ import { DialogService } from '../dialog/dialog.service';
 })
 export class HomeComponent implements OnInit {
 
+  public transtornosList: Transtorno[] = new Array();
+
   constructor(
     private dialogService: DialogService,
+    private transtornoService: TranstornoService,
     private router: Router,
   ) { }
 
+  carregarTranstornos () {
+    this.transtornosList = this.transtornoService.getTranstornos()
+  }
+
   ngOnInit(): void {
+    this.carregarTranstornos()
   }
 
   scrollTo ( element: any ) {

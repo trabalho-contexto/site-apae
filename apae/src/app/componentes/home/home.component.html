@@ -133,52 +133,18 @@
       <section id="secion-transtornos" #transtornos>
         <h1>Transtornos</h1>
 
-        <div class="cardTranstorno">
+        <div class="cardTranstorno" *ngFor="let transtorno of transtornosList">
           <a
-            href="http://google.com"
+            href="{{transtorno.link}}"
             style="text-decoration: none; color: black"
             target="blank"
           >
             <div class="containerTranstorno">
               <div class="containerTranstornoTitulo">
-                <h4><b>Nome do transtorno</b></h4>
+                <h4><b>{{transtorno.titulo}}</b></h4>
               </div>
               <div class="containerTranstornoTexto">
-                <p>Breve explicação</p>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="cardTranstorno">
-          <a
-            href="http://google.com"
-            style="text-decoration: none; color: black"
-            target="blank"
-          >
-            <div class="containerTranstorno">
-              <div class="containerTranstornoTitulo">
-                <h4><b>Nome do transtorno</b></h4>
-              </div>
-              <div class="containerTranstornoTexto">
-                <p>Breve explicação</p>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="cardTranstorno">
-          <a
-            href="http://google.com"
-            style="text-decoration: none; color: black"
-            target="blank"
-          >
-            <div class="containerTranstorno">
-              <div class="containerTranstornoTitulo">
-                <h4><b>Nome do transtorno</b></h4>
-              </div>
-              <div class="containerTranstornoTexto">
-                <p>Breve explicação</p>
+                <p>{{transtorno.descricao | redutor: 50 }}</p>
               </div>
             </div>
           </a>
