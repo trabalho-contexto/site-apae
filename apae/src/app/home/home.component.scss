@@ -73,10 +73,22 @@ section {
 }
 
 #section-apresentacao {
-  margin-top: 5%;
-
-  img {
+  background-image: url("/assets/fachada.jpg");
+  background-position: 60% 40%;
+  background-size: cover;
+  text-align: center;
+  #logo{
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  #fachada {
     width: 25%;
+  }
+  h1{
+    color: #1b212b;
+    background-color: rgba(255, 255, 255, 0.3);;
   }
 }
 
@@ -127,8 +139,9 @@ section {
   margin: 1rem 0;
 }
 
-li {
-//  list-style-type: none;
+a{
+  color: #1b212b;
+  text-decoration: none;
 }
 p {
   margin-left: 1rem;
@@ -191,4 +204,5 @@ p {
     display: block;
     text-align: left;
   }
+
 }
