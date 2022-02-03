@@ -14,3 +14,4 @@ Planejamento:
 Possibilidades:
 * Possível controle de doadores?
 * Geração de PDF para impressão de agradecimento dos doadores?
+
