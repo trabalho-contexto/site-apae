@@ -105,8 +105,9 @@ export class ContentService {
         melhorar o ensino aprendizagem.
       </li>
     </ul>`,
-    'principios' : `<h3>Princípios Norteadores</h3>
-
+    'principios' : `<h3>Princípios Norteadores</h3>    
+    <br />
+    
     <h4>Epistemológicos</h4>
     <p>
       A Escola de Educação Especial “Jacira Martins de Melo” acredita que

@@ -15,7 +15,7 @@
         <li class="ni">História</li>
       </a>
       <a  (click)="scrollTo(transtornos)">
-        <li class="ni">Transtornos</li>
+        <li class="ni">Transtornos dos nossos alunos</li>
       </a>
       <a  (click)="scrollTo(doacoes)">
         <li class="ni">Doações</li>
@@ -24,7 +24,7 @@
         <li class="ni">Contato</li>
       </a>
       <a (click)="goToFeed()">
-        <li class="ni">Feed</li>
+        <li class="ni">Eventos</li>
       </a>
       <a class="icon" (click)="myFunction()">
         <i class="fa fa-bars"></i>
@@ -34,50 +34,55 @@
     <div class="wrapper">
       <section id="section-apresentacao">
         <img id="logo" src="assets/apae.png" />
-        <h1>ESCOLA DE EDUCAÇÃO ESPECIAL JACIRA MARTINS DE MELO</h1>
+        <h1>ESCOLA DE EDUCAÇÃO ESPECIAL "JACIRA MARTINS DE MELO"</h1>
       </section>
       <section id="secion-sobre" #sobre>
         <h1>Sobre a instituição</h1>
+
+        <br/>
         <div class="subsection">
           <h3>Missão</h3>
           <p>
            {{ "Desenvolver ações de defesa de direitos, prevenção, orientações,
             prestação de serviços e apoio à família, direcionadas a melhoria da
             qualidade de vida da pessoa com deficiência intelectual e múltipla e
-            à construção de uma sociedade mais justa e solidária." | redutor: 100 }}
+            à construção de uma sociedade mais justa e solidária." | redutor: 200 }}
             <button (click)="abrirDialogMissao()">Ver mais</button>
           </p>
         </div>
+
+        <br/>
         <div class="subsection">
           <h3>Diagnóstico da Escola e Realidade Contextual</h3>
           <p>
             {{ "A APAE de Piedade de Ponte Nova - MG caracteriza-se pelo atendimento
             especializado as pessoas com deficiência intelectual e múltipla com
-            atendimento matutino" | redutor: 100 }}
+            atendimento matutino" | redutor: 200 }}
             <button (click)="abrirDialogDiagnostico()">Ver mais</button>
           </p>
         </div>
+
+        <br/>
         <div class="subsection">
           <h3>Objetivos</h3>
           <p>
             {{ "A APAE de Piedade de Ponte Nova - MG tem por objetivo principal garantir a independência 
             e o desenvolvimento pleno das potencialidades dos alunos com deficiência intelectual e 
             múltipla e sua participação na família e comunidade, através de conteúdo
-            específicos, acessibilidades, adaptações e metodologias." | redutor: 100 }}
+            específicos, acessibilidades, adaptações e metodologias." | redutor: 200 }}
             <button (click)="abrirDialogObjetivos()">Ver mais</button>
           </p>  
         </div>
+
+        <br/>
         <div class="subsection">
           <h3>Princípios Norteadores</h3>
-
-          <h4>Epistemológicos</h4>
           <p>
-            {{"A Escola de Educação Especial “Jacira Martins de Melo” acredita que
-            o aluno com deficiência intelectual e múltipla é capaz de produzir
-            conhecimento e inserir- se no mundo social" | redutor: 100 }}
+            {{"A APAE de Piedade de Ponte Nova segue alguns princípios."| redutor: 100 }}
             <button (click)="abrirDialogPrincipios()">Ver mais</button>
-          </p>
+          </p>        
         </div>
+
       </section>
       <section id="secion-historia" #historia>
         <h1>História</h1>
@@ -130,7 +135,7 @@
         </p>
       </section>
       <section id="secion-transtornos" #transtornos>
-        <h1>Transtornos</h1>
+        <h1>Transtornos dos nossos alunos</h1>
 
         <div class="cardTranstorno" *ngFor="let transtorno of transtornosList">
           <a
@@ -143,7 +148,7 @@
                 <h4><b>{{transtorno.titulo}}</b></h4>
               </div>
               <div class="containerTranstornoTexto">
-                <p>{{transtorno.descricao | redutor: 50 }}</p>
+                <p>{{transtorno.descricao | redutor: 100 }}</p>
               </div>
             </div>
           </a>
@@ -154,7 +159,7 @@
         <h1>Doações</h1>
         <p>Para ajudar a APAE, envie uma mensagem: <br/><br/>
           <button>
-            <a href="https://api.whatsapp.com/send?phone=5531988887777&text=Ol%C3%A1!%20Gostaria%20de%20ajudar%20a%20APAE%20de%20Piedade">
+            <a href="https://api.whatsapp.com/send?phone=553138715300&text=Ol%C3%A1!%20Gostaria%20de%20ajudar%20a%20APAE%20de%20Piedade">
               <i class="fa fa-whatsapp" style="font-size:24px; padding-right: 10px;"></i> ENVIAR MENSAGEM
             </a>
           </button>
@@ -162,8 +167,8 @@
         </p>
 
         <br/><br/>
-        <p>Você também pode nos ligar ou fazer uma visita presencialmente. O telefone e endereço estão abaixo.<br/>
-        Obrigado!</p><br/>
+        <p>Você também pode nos ligar ou fazer uma visita. O telefone e endereço estão abaixo.<br/>
+        </p>
 
 
         <br/>
@@ -176,7 +181,7 @@
         <img src="assets/apae.png" />
         <div class="contato">
           <h1>Contato</h1>
-          <div style="margin-top: 0.5rem"><b>Telefone:</b> <a href="tel:31988887777">(31) XXXX-XXXX</a></div>
+          <div style="margin-top: 0.5rem"><b>Telefone: </b> <a href="tel:3138715300">(31) 3871-5300</a></div>
           <div style="margin-top: 0.5rem">
             <a href="https://goo.gl/maps/StgjVvUy4jcXAojj7"><b>
               Endereço:</b> R. Natalino Martins de Souza, Nº 03
