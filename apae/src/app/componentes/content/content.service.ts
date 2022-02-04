@@ -52,7 +52,7 @@ export class ContentService {
     A seguir destacamos alguns obstáculos que dificultam o pleno
     funcionamento da escola:
     <br />
-    <ul>
+    <ul style="padding-left: 30px">
       <li>
         Necessidade de capacitação dos funcionários da escola compatível
         com sua função;
@@ -72,7 +72,7 @@ export class ContentService {
     </ul>`,
     'objetivos' : `<h3>Objetivos</h3>
     <h4>Objetivo Geral:</h4>
-    <ul>
+    <ul style="padding-left: 30px">
       <li>
         Garantir a independência e o desenvolvimento pleno das
         potencialidades dos alunos com deficiência intelectual e múltipla
@@ -80,8 +80,9 @@ export class ContentService {
         específicos, acessibilidades, adaptações e metodologias;
       </li>
     </ul>
+    <br >
     <h4>Objetivos Específicos</h4>
-    <ul>
+    <ul style="padding-left: 30px">
       <li>
         Executar ações nas áreas pedagógicas, saúde, englobando programas
         de assistência social que atenda as pessoas com deficiência e suas

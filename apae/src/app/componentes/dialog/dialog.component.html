@@ -1,7 +1,7 @@
 <mat-dialog-content class='content'>
 
   <ng-container>
-    <div [innerHtml]="data.data.html"></div>
+    <div [innerHtml]="data.data.html | safeHtml"></div>
   </ng-container>
 
 </mat-dialog-content>
