@@ -1,10 +1,10 @@
 <mat-dialog-content class='content'>
 
   <ng-container>
-    <div [innerHtml]="data.data.html"></div>
+    <div [innerHtml]="data.data.html | safeHtml"></div>
   </ng-container>
 
 </mat-dialog-content>
 <mat-dialog-actions align="end">
-    <button class="close" (click)="close()">✕&nbsp;&nbsp;Close</button>
+    <button class="close" (click)="close()">✕&nbsp;&nbsp;Fechar</button>
 </mat-dialog-actions>

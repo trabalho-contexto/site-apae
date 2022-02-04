@@ -52,7 +52,7 @@ export class ContentService {
     A seguir destacamos alguns obstáculos que dificultam o pleno
     funcionamento da escola:
     <br />
-    <ul>
+    <ul style="padding-left: 30px">
       <li>
         Necessidade de capacitação dos funcionários da escola compatível
         com sua função;
@@ -71,17 +71,17 @@ export class ContentService {
       </li>
     </ul>`,
     'objetivos' : `<h3>Objetivos</h3>
-    <h4>Objetivo Geral:</h4>
-    <ul>
-      <li>
-        Garantir a independência e o desenvolvimento pleno das
-        potencialidades dos alunos com deficiência intelectual e múltipla
-        e sua participação na família e comunidade, através de conteúdo
-        específicos, acessibilidades, adaptações e metodologias;
-      </li>
-    </ul>
-    <h4>Objetivos Específicos</h4>
-    <ul>
+    <p>
+      A APAE de Piedade de Ponte Nova - MG tem por objetivo principal garantir a independência 
+      e o desenvolvimento pleno das potencialidades dos alunos com deficiência intelectual e 
+      múltipla e sua participação na família e comunidade, através de conteúdo
+      específicos, acessibilidades, adaptações e metodologias.
+    </p>
+    <br >
+    <p>
+      Para realizar o objetivo descrito acima, a APAE realiza atividades com os objetivos a seguir:
+    <p>
+    <ul style="padding-left: 30px">
       <li>
         Executar ações nas áreas pedagógicas, saúde, englobando programas
         de assistência social que atenda as pessoas com deficiência e suas
@@ -105,8 +105,9 @@ export class ContentService {
         melhorar o ensino aprendizagem.
       </li>
     </ul>`,
-    'principios' : `<h3>Princípios Norteadores</h3>
-
+    'principios' : `<h3>Princípios Norteadores</h3>    
+    <br />
+    
     <h4>Epistemológicos</h4>
     <p>
       A Escola de Educação Especial “Jacira Martins de Melo” acredita que

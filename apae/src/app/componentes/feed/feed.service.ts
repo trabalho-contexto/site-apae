@@ -10,8 +10,16 @@ export class FeedService {
   private readonly tempoDelaySimulado: number = 300
   private readonly posts: Array<Post> = [
     new Post(
+      './assets/semanaExcepcional.jpg',
+      'Semana Nacional do Excepcional',
+      'Do dia 21 a 27/8 é comemorada a Semana Nacional da Pessoa com Deficiência Intelectual e Múltipla. Instituída pela Lei nº 13.585/2.017, essa semana visa o desenvolvimento de conteúdos para conscientizar a sociedade sobre as necessidades específicas de organização social e de políticas públicas para promover a inclusão social desse segmento populacional e para combater o preconceito e a discriminação.',
+      
+      '22 de agosto de 2019'
+    ),
+
+    new Post(
       './assets/natal.jpg',
-      'Natal 2019',
+      'Natal',
       'E assim termina o último dia letivo Apae Piedade. Estamos felizes pelas oportunidades que juntos compartilhamos, principalmente os momentos de alegria. Feliz Natal, que Deus abençoe a todos!!!',
       
       '13 de dezembro de 2019'
@@ -23,6 +31,7 @@ export class FeedService {
       'Sobre o CARNAPAE da Apae Piedade hoje, foi tudo mto bonito. Ser especial não limita nem exclui ninguém das diversões, ser especial mesmo é  respeitar as diferenças. É  mto gratificante estar com os alunos e todos os outros profissionais da instituição!',
       '9 de fevereiro de 2018'
     ),
+
     new Post(
       './assets/arraia.jpg',
       'Arraial',
@@ -36,6 +45,7 @@ export class FeedService {
       'Quem não constrói com trabalho,polui e destrói tudo,não acredita no amor,que a gente quer um outro mundo. Pepeu Gomes. Passeio educativo,ensinar para os nossos alunos da Apae Piedade sobre a importância de se preservar o Meio Ambiente. Natureza é vida!!!!',
       '9 de junho de 2017'
     ),
+
     new Post(
       './assets/pascoa.jpg',
       'Páscoa',

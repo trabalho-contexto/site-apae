@@ -9,6 +9,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { DialogComponent } from './componentes/dialog/dialog.component';
 import { RedutorPipe } from './pipes/redutor.pipe';
+import { SafeHtmlPipe } from './pipes/safeHtml.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RedutorPipe } from './pipes/redutor.pipe';
     FeedComponent,
     HomeComponent,
     DialogComponent,
-    RedutorPipe
+    RedutorPipe,
+    SafeHtmlPipe
   ],
   imports: [
     BrowserModule,
