@@ -71,17 +71,16 @@ export class ContentService {
       </li>
     </ul>`,
     'objetivos' : `<h3>Objetivos</h3>
-    <h4>Objetivo Geral:</h4>
-    <ul style="padding-left: 30px">
-      <li>
-        Garantir a independência e o desenvolvimento pleno das
-        potencialidades dos alunos com deficiência intelectual e múltipla
-        e sua participação na família e comunidade, através de conteúdo
-        específicos, acessibilidades, adaptações e metodologias;
-      </li>
-    </ul>
+    <p>
+      A APAE de Piedade de Ponte Nova - MG tem por objetivo principal garantir a independência 
+      e o desenvolvimento pleno das potencialidades dos alunos com deficiência intelectual e 
+      múltipla e sua participação na família e comunidade, através de conteúdo
+      específicos, acessibilidades, adaptações e metodologias.
+    </p>
     <br >
-    <h4>Objetivos Específicos</h4>
+    <p>
+      Para realizar o objetivo descrito acima, a APAE realiza atividades com os objetivos a seguir:
+    <p>
     <ul style="padding-left: 30px">
       <li>
         Executar ações nas áreas pedagógicas, saúde, englobando programas
