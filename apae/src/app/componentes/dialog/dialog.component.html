@@ -1,7 +1,20 @@
 <mat-dialog-content class='content'>
 
-  <ng-container>
+  <ng-container *ngIf="data.data.tipo==='sobre'">
     <div [innerHtml]="data.data.html | safeHtml"></div>
+  </ng-container>
+
+  <ng-container *ngIf="data.data.tipo==='transtorno'">
+    <div>
+      <div class="containerTranstornoTitulo">
+        <h4><b>{{data.data.transtorno.titulo}}</b></h4>
+      </div>
+      <div class="containerTranstornoTexto">
+        <p>{{data.data.transtorno.descricao}}</p>
+      </div>
+      <br>
+      <a [href]="data.data.transtorno.link" target="blank">Fonte</a>
+    </div>
   </ng-container>
 
 </mat-dialog-content>

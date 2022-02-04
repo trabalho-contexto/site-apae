@@ -36,24 +36,35 @@ export class HomeComponent implements OnInit {
   abrirDialogMissao () {
     this.dialogService.open({
       html : this.contentService.getContent('missao'),
+      tipo: 'sobre'
     })
   }
 
   abrirDialogDiagnostico () {
     this.dialogService.open({
       html : this.contentService.getContent('diagnostico'),
+      tipo: 'sobre'
     })
   }
 
   abrirDialogObjetivos () {
     this.dialogService.open({
       html : this.contentService.getContent('objetivos'),
+      tipo: 'sobre'
     })
   }
 
   abrirDialogPrincipios () {
     this.dialogService.open({
       html : this.contentService.getContent('principios'),
+      tipo: 'sobre'
+    })
+  }
+
+  abrirDialogTranstorno ( transtorno: Transtorno ) {
+    this.dialogService.open({
+      transtorno: transtorno,
+      tipo: 'transtorno'
     })
   }
 
