@@ -143,7 +143,7 @@ a{
   color: #1b212b;
   text-decoration: none;
 }
-p {
+p, h1, h2, h3, h4 {
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -177,6 +177,13 @@ p {
   display: none;
 }
 
+h3, h1, h2 {
+  margin-bottom: 1%;
+}
+h4 {
+  margin-bottom: 2%;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -205,4 +212,19 @@ p {
     text-align: left;
   }
 
+}
+
+button {
+  color: white;
+  background-color: #00c421;
+  font-weight: 500;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);  
 }

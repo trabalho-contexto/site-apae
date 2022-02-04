@@ -41,43 +41,43 @@
         <div class="subsection">
           <h3>Missão</h3>
           <p>
-            Desenvolver ações de defesa de direitos, prevenção, orientações,
-            prestação de serviços e apoio à família... 
+           {{ "Desenvolver ações de defesa de direitos, prevenção, orientações,
+            prestação de serviços e apoio à família, direcionadas a melhoria da
+            qualidade de vida da pessoa com deficiência intelectual e múltipla e
+            à construção de uma sociedade mais justa e solidária." | redutor: 100 }}
             <button (click)="abrirDialogMissao()">Ver mais</button>
           </p>
         </div>
         <div class="subsection">
           <h3>Diagnóstico da Escola e Realidade Contextual</h3>
           <p>
-            A APAE de Piedade de Ponte Nova - MG caracteriza-se pelo atendimento
+            {{ "A APAE de Piedade de Ponte Nova - MG caracteriza-se pelo atendimento
             especializado as pessoas com deficiência intelectual e múltipla com
-            atendimento matutino...
+            atendimento matutino" | redutor: 100 }}
+            <button (click)="abrirDialogDiagnostico()">Ver mais</button>
           </p>
-          <button (click)="abrirDialogDiagnostico()">Ver mais</button>
         </div>
         <div class="subsection">
           <h3>Objetivos</h3>
           <h4>Objetivo Geral:</h4>
-          <ul>
-            <li>
-              Garantir a independência e o desenvolvimento pleno das
-              potencialidades dos alunos com deficiência intelectual e múltipla
-              e sua participação na família e comunidade, através de conteúdo
-              específicos, acessibilidades, adaptações e metodologias;
-            </li>
-          </ul>
-          <button (click)="abrirDialogObjetivos()">Ver mais</button>
+          <p>
+            {{ "Garantir a independência e o desenvolvimento pleno das
+            potencialidades dos alunos com deficiência intelectual e múltipla
+            e sua participação na família e comunidade, através de conteúdo
+            específicos, acessibilidades, adaptações e metodologias;" | redutor: 100 }}
+            <button (click)="abrirDialogObjetivos()">Ver mais</button>
+          </p>  
         </div>
         <div class="subsection">
           <h3>Princípios Norteadores</h3>
 
           <h4>Epistemológicos</h4>
           <p>
-            A Escola de Educação Especial “Jacira Martins de Melo” acredita que
+            {{"A Escola de Educação Especial “Jacira Martins de Melo” acredita que
             o aluno com deficiência intelectual e múltipla é capaz de produzir
-            conhecimento e inserir- se no mundo social.
+            conhecimento e inserir- se no mundo social" | redutor: 100 }}
+            <button (click)="abrirDialogPrincipios()">Ver mais</button>
           </p>
-          <button (click)="abrirDialogPrincipios()">Ver mais</button>
         </div>
       </section>
       <section id="secion-historia" #historia>
@@ -153,18 +153,18 @@
 
       <section id="secion-doacoes" #doacoes>
         <h1>Doações</h1>
-        Para ajudar a APAE, envie uma mensagem: <br/><br/>
+        <p>Para ajudar a APAE, envie uma mensagem: <br/><br/>
         <img src="https://img.icons8.com/external-becris-flat-becris/64/000000/external-help-franchise-business-becris-flat-becris.png" width="30" height="30"/>
-        <a href="https://api.whatsapp.com/send?phone=5531988887777&text=Ol%C3%A1!%20Gostaria%20de%20ajudar%20a%20APAE%20de%20Piedade"> ENVIAR MENSAGEM</a><br/>
+        <a href="https://api.whatsapp.com/send?phone=5531988887777&text=Ol%C3%A1!%20Gostaria%20de%20ajudar%20a%20APAE%20de%20Piedade"> ENVIAR MENSAGEM</a><br/></p>
 
         <br/><br/>
-        Você também pode nos ligar ou fazer uma visita presencialmente. O telefone e endereço estão abaixo.<br/>
-        Obrigado!<br/>
+        <p>Você também pode nos ligar ou fazer uma visita presencialmente. O telefone e endereço estão abaixo.<br/>
+        Obrigado!</p><br/>
 
 
         <br/>
-        “O que eu faço, é uma gota no meio de um oceano. Mas sem ela, o oceano será menor.”<br/>
-        Madre Teresa de Caucutá
+        <p>“O que eu faço, é uma gota no meio de um oceano. Mas sem ela, o oceano será menor.”<br/>
+        Madre Teresa de Caucutá</p>
       </section>
 
       <hr />

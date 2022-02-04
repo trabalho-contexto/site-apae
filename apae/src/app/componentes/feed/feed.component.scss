@@ -1,6 +1,6 @@
 body {
     margin: 1rem;
-    h1 {
+    table {
         margin-bottom: 2%;
     }
     .wrapper {
@@ -28,4 +28,20 @@ body {
             }
         }
     }
+}
+
+button {
+    color: white;
+    background-color: #00c421;
+    font-weight: 500;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);  
 }
