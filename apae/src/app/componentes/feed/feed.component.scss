@@ -31,6 +31,7 @@ body {
 }
 
 button {
+    font-family: 'Montserrat', sans-serif;
     color: white;
     background-color: #00c421;
     font-weight: 500;
@@ -40,6 +41,7 @@ button {
     border-radius: 3px;
     cursor: pointer;
     display: inline-block;
+    margin-right: 1rem;
 }
 
 button:hover {
