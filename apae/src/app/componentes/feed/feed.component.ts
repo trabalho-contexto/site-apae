@@ -1,6 +1,7 @@
 import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import Post from 'src/modelo/post.modelo';
+import { DialogService } from '../dialog/dialog.service';
 import { FeedService } from './feed.service';
 
 @Component({
@@ -15,6 +16,7 @@ export class FeedComponent implements OnInit {
 
   constructor(
     private feedService: FeedService,
+    private dialogService: DialogService,
     private location: Location
   ) { 
     this.loadPosts()
@@ -31,6 +33,13 @@ export class FeedComponent implements OnInit {
       }, () => {
         this.loadingPosts = false
       })
+  }
+
+  verPost ( post: Post ) {
+    this.dialogService.open({
+      post: post,
+      tipo: 'post'
+    })
   }
 
   ngOnInit(): void {

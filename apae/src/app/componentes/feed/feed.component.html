@@ -18,9 +18,10 @@
         <ng-container *ngIf="!loadingPosts">
             <div *ngFor="let post of posts">
                 <h3>{{post.titulo}} </h3>
-                <p>{{post.descricao}}</p>
+                <p>{{post.descricao | redutor : 150}}</p>
                 <img [src]="post.imgLink">
                 <p class='footer'>{{post.data}}</p>
+                <button class="post" (click)="verPost(post)">Ver post</button>
             </div>
         </ng-container>
         <ng-container *ngIf="loadingPosts">

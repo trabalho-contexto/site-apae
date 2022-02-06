@@ -17,6 +17,17 @@
     </div>
   </ng-container>
 
+  <ng-container *ngIf="data.data.tipo==='post'">
+    <div>
+      <div>
+        <h3>{{data.data.post.titulo}} </h3>
+        <p>{{data.data.post.descricao}}</p>
+        <img [src]="data.data.post.imgLink">
+        <p class='footer'>{{data.data.post.data}}</p>
+    </div>
+    </div>
+  </ng-container>
+
 </mat-dialog-content>
 <mat-dialog-actions align="end">
     <button class="close" (click)="close()">✕&nbsp;&nbsp;Fechar</button>

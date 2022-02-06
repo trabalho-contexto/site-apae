@@ -11,8 +11,21 @@
     padding: 50px;
 }
 
-p, h1, h2, h3, h4, a {
+p, h1, h2, h3, h4, a, img{
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 2%;
+}
+
+img {
+    width: 50%;
+}
+
+@media screen and (max-width: 700px) {
+    .content {
+        padding: 10px;
+    }
+    img {
+        width: 100%;
+    }
 }
