@@ -26,7 +26,7 @@ export class FeedService {
     new Post(
       './assets/arraia.jpg',
       'Arraial',
-      '\"A verdadeira deficiência é  aquela que prende o ser humano por dentro e não por fora,pois até os incapacitados de andar podem ser livres para voar\" Parabéns aos alunos da Apae Piedade pela linda apresentação. Parabéns tbm aos professores e demais funcionários que contribuíram para a realização dessa linda quadrilha',
+      '\"A verdadeira deficiência é aquela que prende o ser humano por dentro e não por fora, pois até os incapacitados de andar podem ser livres para voar\" Parabéns aos alunos da Apae Piedade pela linda apresentação. Parabéns tbm aos professores e demais funcionários que contribuíram para a realização dessa linda quadrilha',
       '11 de julho de 2019'
     ),
     
