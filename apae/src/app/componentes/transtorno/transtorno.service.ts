@@ -12,12 +12,16 @@ export class TranstornoService {
     return [
       new Transtorno(
         'Cegueira (9D90.4)',
-        `A perda da visão, também chamada de cegueira, pode ser ocasionada por vários fatores e aparecer de variadas formas. A cegueira pode ser congênita (quando já nasce com a pessoa) ou adquirida, que pode ser causada por diferentes fatores. Existe também a cegueira resultante de acidentes com objetos pontiagudos, queimaduras, substâncias químicas e inflamáveis. Rubéola, sarampo e toxoplasmose em mulheres grávidas também podem ocasionar cegueira no bebê.`,
+        `A perda da visão, também chamada de cegueira, pode ser ocasionada por vários fatores e aparecer de variadas formas. A cegueira pode ser congênita (quando já nasce com a pessoa) ou adquirida, que pode ser causada por diferentes fatores.
+         
+        Existe também a cegueira resultante de acidentes com objetos pontiagudos, queimaduras, substâncias químicas e inflamáveis. Rubéola, sarampo e toxoplasmose em mulheres grávidas também podem ocasionar cegueira no bebê.`,
         `https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1103667651`
       ),
       new Transtorno(
         'Desordem do Desenvolvimento Intelectual (6A00.Z)',
-        `Distúrbios do desenvolvimento intelectual são um grupo de condições etiologicamente diversas originadas durante o período de desenvolvimento, caracterizadas por funcionamento intelectual significativamente abaixo da média e comportamento adaptativo que estão aproximadamente dois ou mais desvios-padrão abaixo da média (aproximadamente menos do que o percentil 2,3), com base em normalizados, testes padronizados administrados individualmente. Quando os testes adequadamente normatizados e padronizados não estão disponíveis, o diagnóstico de distúrbios do desenvolvimento intelectual requer maior confiança no julgamento clínico baseado na avaliação apropriada de indicadores comportamentais comparáveis.`,
+        `Distúrbios do desenvolvimento intelectual são um grupo de condições etiologicamente diversas originadas durante o período de desenvolvimento, caracterizadas por funcionamento intelectual significativamente abaixo da média e comportamento adaptativo que estão aproximadamente dois ou mais desvios-padrão abaixo da média (aproximadamente menos do que o percentil 2,3), com base em normalizados, testes padronizados administrados individualmente.
+        
+        Quando os testes adequadamente normatizados e padronizados não estão disponíveis, o diagnóstico de distúrbios do desenvolvimento intelectual requer maior confiança no julgamento clínico baseado na avaliação apropriada de indicadores comportamentais comparáveis.`,
         `https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f605267007`
       ),
       new Transtorno(
@@ -42,12 +46,16 @@ export class TranstornoService {
       ),
       new Transtorno(
         'Transtorno do Déficit de Atenção e Hiperatividade (6A05)',
-        `O transtorno de déficit de atenção e hiperatividade é caracterizado por um padrão persistente (pelo menos 6 meses) de desatenção e/ou hiperatividade-impulsividade que tem um impacto negativo direto no funcionamento acadêmico, ocupacional ou social. Há evidências de sintomas significativos de desatenção e/ou hiperatividade-impulsividade antes dos 12 anos de idade, tipicamente entre o início e o meio da infância, embora alguns indivíduos possam vir à atenção clínica mais tarde. O grau de desatenção e hiperatividade-impulsividade está fora dos limites da variação normal esperada para a idade e nível de funcionamento intelectual.`,
+        `O transtorno de déficit de atenção e hiperatividade é caracterizado por um padrão persistente (pelo menos 6 meses) de desatenção e/ou hiperatividade-impulsividade que tem um impacto negativo direto no funcionamento acadêmico, ocupacional ou social. Há evidências de sintomas significativos de desatenção e/ou hiperatividade-impulsividade antes dos 12 anos de idade, tipicamente entre o início e o meio da infância, embora alguns indivíduos possam vir à atenção clínica mais tarde.
+         
+        O grau de desatenção e hiperatividade-impulsividade está fora dos limites da variação normal esperada para a idade e nível de funcionamento intelectual.`,
         `https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f821852937`
       ),
       new Transtorno(
         'Transtorno mental e comportamental devido ao uso de canabinóides (6C41)',
-        `Os transtornos devidos ao uso de substâncias incluem transtornos que resultam de uma única ocasião ou uso repetido de substâncias que possuem propriedades psicoativas, incluindo certos medicamentos. Estão incluídos os transtornos relacionados a quatorze classes ou grupos de substâncias psicoativas. Normalmente, o uso inicial dessas substâncias produz efeitos psicoativos agradáveis ou atraentes que são recompensadores e reforçados com o uso repetido. Com o uso continuado, muitas das substâncias incluídas têm a capacidade de produzir dependência.`,
+        `Os transtornos devidos ao uso de substâncias incluem transtornos que resultam de uma única ocasião ou uso repetido de substâncias que possuem propriedades psicoativas, incluindo certos medicamentos. Estão incluídos os transtornos relacionados a quatorze classes ou grupos de substâncias psicoativas.
+        
+        Normalmente, o uso inicial dessas substâncias produz efeitos psicoativos agradáveis ou atraentes que são recompensadores e reforçados com o uso repetido. Com o uso continuado, muitas das substâncias incluídas têm a capacidade de produzir dependência.`,
         `https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f590211325`
       ),    
       new Transtorno(
