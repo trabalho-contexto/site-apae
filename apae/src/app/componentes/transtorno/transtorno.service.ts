@@ -13,7 +13,8 @@ export class TranstornoService {
       new Transtorno(
         'Cegueira (9D90.4)',
         `A perda da visão, também chamada de cegueira, pode ser ocasionada por vários fatores e aparecer de variadas formas. A cegueira pode ser congênita (quando já nasce com a pessoa) ou adquirida, que pode ser causada por diferentes fatores. Existe também a cegueira resultante de acidentes com objetos pontiagudos, queimaduras, substâncias químicas e inflamáveis. Rubéola, sarampo e toxoplasmose em mulheres grávidas também podem ocasionar cegueira no bebê.`,
-        `https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1103667651`
+        `https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1103667651`,
+        200
       ),
       new Transtorno(
         'Desordem do Desenvolvimento Intelectual (6A00.Z)',
@@ -23,7 +24,8 @@ export class TranstornoService {
       new Transtorno(
         'Epilepsia (G40.2)',
         `Pelo menos 2 convulsões não provocadas (ou reflexas) ocorrendo com mais de 24 horas de intervalo.`,
-        `https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1397288146`
+        `https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1397288146`,
+        200
       ),
       new Transtorno(
         'Esquizofrenia(6A20.Z)',

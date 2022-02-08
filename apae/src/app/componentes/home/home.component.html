@@ -137,22 +137,24 @@
       <section id="secion-transtornos" #transtornos>
         <h1>Transtornos dos nossos alunos</h1>
 
-        <div class="cardTranstorno" *ngFor="let transtorno of transtornosList">
-          <a
-            href="{{transtorno.link}}"
-            style="text-decoration: none; color: black"
-            target="blank"
-          >
-            <div class="containerTranstorno">
-              <div class="containerTranstornoTitulo">
-                <h4><b>{{transtorno.titulo}}</b></h4>
+        <div class="transtorno-wrapper">
+          <div class="cardTranstorno" *ngFor="let transtorno of transtornosList">
+            <a
+              href="{{transtorno.link}}"
+              style="text-decoration: none; color: black"
+              target="blank"
+            >
+              <div class="containerTranstorno">
+                <div class="containerTranstornoTitulo">
+                  <h4><b>{{transtorno.titulo}}</b></h4>
+                </div>
+                <div class="containerTranstornoTexto">
+                  <p>{{transtorno.descricao | redutor: transtorno.caracteresAOcultar }}</p>
+                </div>
               </div>
-              <div class="containerTranstornoTexto">
-                <p>{{transtorno.descricao | redutor: 100 }}</p>
-              </div>
-            </div>
-          </a>
-          <button (click)="abrirDialogTranstorno(transtorno)">Ver mais</button>
+            </a>
+            <button (click)="abrirDialogTranstorno(transtorno)">Ver mais</button>
+          </div>
         </div>
       </section>
 
