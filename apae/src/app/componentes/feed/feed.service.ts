@@ -20,7 +20,8 @@ export class FeedService {
       './assets/semanaExcepcional.jpg',
       'Semana Nacional do Excepcional',
       'Do dia 21 a 27/8 é comemorada a Semana Nacional da Pessoa com Deficiência Intelectual e Múltipla. Instituída pela Lei nº 13.585/2.017, essa semana visa o desenvolvimento de conteúdos para conscientizar a sociedade sobre as necessidades específicas de organização social e de políticas públicas para promover a inclusão social desse segmento populacional e para combater o preconceito e a discriminação.',
-      '22 de agosto de 2019'
+      '22 de agosto de 2019',
+      151
     ),
     
     new Post(

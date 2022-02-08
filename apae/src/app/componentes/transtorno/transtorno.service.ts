@@ -27,7 +27,8 @@ export class TranstornoService {
       new Transtorno(
         'Epilepsia (G40.2)',
         `Pelo menos 2 convulsões não provocadas (ou reflexas) ocorrendo com mais de 24 horas de intervalo.`,
-        `https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1397288146`
+        `https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1397288146`,
+        200
       ),
       new Transtorno(
         'Esquizofrenia(6A20.Z)',
